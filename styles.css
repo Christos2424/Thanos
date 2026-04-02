@@ -638,7 +638,7 @@ img { display: block; max-width: 100%; }
 .addr-text {
   font-family: Arial, Helvetica, sans-serif;
   color: var(--grey);
-  font-size: clamp(18px, 2vw, 21px);
+  font-size: clamp(16px, 1.8vw, 19px);
   margin: 0 0 12px;
   line-height: 1.6;
 }
