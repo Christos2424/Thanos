@@ -10,14 +10,13 @@
   <meta property="og:type" content="website" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <!-- More masculine display font for brand: Oswald + Cinzel + Cormorant Garamond -->
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <div class="grain-overlay" aria-hidden="true"></div>
 
-  <!-- TOPBAR (refined, monochrome) -->
+  <!-- TOPBAR -->
   <header class="topbar">
     <div class="container topbar-inner">
       <a class="brand" href="#top">
@@ -25,9 +24,7 @@
       </a>
       <input type="checkbox" id="menu-toggle" class="menu-toggle" />
       <label for="menu-toggle" class="hamburger" aria-label="Toggle menu">
-        <span></span>
-        <span></span>
-        <span></span>
+        <span></span><span></span><span></span>
       </label>
       <nav class="nav">
         <a href="#contact">Επικοινωνία</a>
@@ -39,7 +36,7 @@
     </div>
   </header>
 
-  <!-- HERO (strong black & white) -->
+  <!-- HERO -->
   <section id="top" class="hero" style="--bg:url('assets/img/IMG_0144-2-scaled.jpg');">
     <div class="hero-overlay"></div>
     <div class="hero-vignette"></div>
@@ -57,23 +54,21 @@
       </p>
       <div class="ornament-char" aria-hidden="true"></div>
       <div class="hero-actions">
-        <a class="btn primary"
-           href="https://supersaas.com/schedule/Koureio_Thanos/Koureio_Thanos/%CE%9A%CE%BF%CF%8D%CF%81%CE%B5%CE%BC%CE%B1?view=week"
-           target="_blank" rel="noopener">Κλείστε ραντεβού</a>
+        <a class="btn primary" href="https://supersaas.com/schedule/Koureio_Thanos/Koureio_Thanos/%CE%9A%CE%BF%CF%8D%CF%81%CE%B5%CE%BC%CE%B1?view=week" target="_blank" rel="noopener">Κλείστε ραντεβού</a>
         <a class="btn ghost" href="#contact">Δείτε επικοινωνία</a>
       </div>
     </div>
     <div class="fade-bottom"></div>
   </section>
 
-  <!-- CONTACT (black/white card) -->
+  <!-- CONTACT -->
   <section id="contact" class="section cover" style="--bg:url('assets/img/img2.jpg');">
     <div class="cover-overlay light-tint"></div>
     <div class="fade-top"></div>
     <div class="container grid-2">
-      <div class="card media-card">
+      <a href="#lb-contact" class="card media-card photo-wrap">
         <img src="assets/img/12-1.jpg" alt="Κουρείο Θάνος" loading="lazy" />
-      </div>
+      </a>
       <div class="card contact-card">
         <div class="sec-badge">-Βρείτε μας-</div>
         <h2 class="sec-heading">Επικοινωνία</h2>
@@ -92,23 +87,19 @@
           <li class="closed"><span>Κυριακή</span><span>Κλειστό</span></li>
         </ul>
         <div class="contact-actions">
-          <a class="btn primary dark"
-             href="https://supersaas.com/schedule/Koureio_Thanos/Koureio_Thanos/%CE%9A%CE%BF%CF%8D%CF%81%CE%B5%CE%BC%CE%B1?view=week"
-             target="_blank" rel="noopener">Κλείστε ραντεβού</a>
-          <a class="btn outline-dark"
-             href="https://www.google.com/maps/place/KOYREIO+THANOS/@40.6500197,22.9371559,19z/data=!4m6!3m5!1s0x14a839bbdaff90d7:0x9990ee9ba8b03ca3!8m2!3d40.6501123!4d22.9377245!16s%2Fg%2F11dymr13nl?entry=ttu"
-             target="_blank" rel="noopener">Οδηγίες</a>
+          <a class="btn primary dark" href="https://supersaas.com/schedule/Koureio_Thanos/Koureio_Thanos/%CE%9A%CE%BF%CF%8D%CF%81%CE%B5%CE%BC%CE%B1?view=week" target="_blank" rel="noopener">Κλείστε ραντεβού</a>
+          <a class="btn outline-dark" href="https://www.google.com/maps/place/KOYREIO+THANOS/@40.6500197,22.9371559,19z/data=!4m6!3m5!1s0x14a839bbdaff90d7:0x9990ee9ba8b03ca3!8m2!3d40.6501123!4d22.9377245!16s%2Fg%2F11dymr13nl?entry=ttu" target="_blank" rel="noopener">Οδηγίες</a>
         </div>
       </div>
     </div>
     <div class="fade-bottom"></div>
   </section>
 
-  <!-- STORY (monochrome, powerful) – WIDER now (narrow class removed) -->
+  <!-- STORY -->
   <section id="story" class="section cover" style="--bg:url('assets/img/IMG_0214-1-scaled.jpg');">
     <div class="cover-overlay dark"></div>
     <div class="fade-top"></div>
-    <div class="container center-text">   <!-- removed "narrow" class -->
+    <div class="container center-text">
       <div class="sec-badge light">-Ποιοί είμαστε-</div>
       <h2 class="sec-heading light">Η Ιστορία μας</h2>
       <div class="orn-rule light"><span></span><span class="orn-dia">⸻</span><span></span></div>
@@ -135,21 +126,18 @@
             <p>Κούρεμα παιδικό <strong>8€</strong></p>
           </div>
         </div>
-
         <div class="service">
           <img src="assets/img/icon-02-free-img-1.png" alt="" loading="lazy" />
           <div>
             <p>Ξύρισμα με trimmer <strong>4€</strong></p>
           </div>
         </div>
-
         <div class="service">
           <img src="assets/img/icon-03-free-img-1.png" alt="" loading="lazy" />
           <div>
             <p>Περιποίηση γενειάδας <strong>4€</strong></p>
           </div>
         </div>
-
         <div class="service">
           <img src="assets/img/icon-04-free-img.png" alt="" loading="lazy" />
           <div>
@@ -158,15 +146,13 @@
         </div>
       </div>
       <div class="center-btn">
-        <a class="btn primary"
-           href="https://supersaas.com/schedule/Koureio_Thanos/Koureio_Thanos/%CE%9A%CE%BF%CF%8D%CF%81%CE%B5%CE%BC%CE%B1?view=week"
-           target="_blank" rel="noopener">Κλείστε ραντεβού</a>
+        <a class="btn primary" href="https://supersaas.com/schedule/Koureio_Thanos/Koureio_Thanos/%CE%9A%CE%BF%CF%8D%CF%81%CE%B5%CE%BC%CE%B1?view=week" target="_blank" rel="noopener">Κλείστε ραντεβού</a>
       </div>
     </div>
     <div class="fade-bottom"></div>
   </section>
 
-  <!-- FEATURE PHOTO (fixed background for transition) -->
+  <!-- FEATURE PHOTO -->
   <section class="feature-photo" style="--bg:url('assets/img/IMG_20180508_204134-scaled.jpg');">
     <div class="cover-overlay dark"></div>
     <div class="fade-top"></div>
@@ -182,18 +168,13 @@
       <h2 class="sec-heading light">Βίντεο</h2>
       <div class="orn-rule light"><span></span><span class="orn-dia">⸻</span><span></span></div>
       <div class="video-wrap">
-        <iframe
-          src="https://www.youtube.com/embed/GBwCfBw--6I"
-          title="Κουρείο Θάνος"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen loading="lazy"></iframe>
+        <iframe src="https://www.youtube.com/embed/GBwCfBw--6I" title="Κουρείο Θάνος" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
       </div>
     </div>
     <div class="fade-bottom"></div>
   </section>
 
-  <!-- GALLERY (new dynamic collage) -->
+  <!-- GALLERY -->
   <section id="gallery" class="section cover" style="--bg:url('assets/img/IMG_0137-scaled.jpg');">
     <div class="cover-overlay dark"></div>
     <div class="fade-top"></div>
@@ -201,21 +182,18 @@
       <div class="sec-badge light">-Στιγμιότυπα-</div>
       <h2 class="sec-heading light">Φωτογραφίες</h2>
       <div class="orn-rule light"><span></span><span class="orn-dia">⸻</span><span></span></div>
-
-      <!-- improved collage grid with varying spans (full colour, no desaturation) -->
       <div class="collage-grid">
-        <div class="photo-wrap grid-item--wide"><img src="assets/img/IMG_0187-3-scaled.jpg" alt="" loading="lazy" /></div>
-        <div class="photo-wrap grid-item--tall"><img src="assets/img/IMG_0147-2-scaled.jpg" alt="" loading="lazy" /></div>
-        <div class="photo-wrap grid-item--large"><img src="assets/img/IMG_0149-2-scaled.jpg" alt="" loading="lazy" /></div>
-        <div class="photo-wrap"><img src="assets/img/IMG_0181-3-scaled.jpg" alt="" loading="lazy" /></div>
-        <div class="photo-wrap grid-item--wide"><img src="assets/img/IMG_0141-1-1024x683.jpg" alt="" loading="lazy" /></div>
-        <div class="photo-wrap grid-item--tall"><img src="assets/img/IMG_0170-1024x683.jpg" alt="" loading="lazy" /></div>
-        <div class="photo-wrap"><img src="assets/img/IMG_0198-1-683x1024.jpg" alt="" loading="lazy" /></div>
-        <div class="photo-wrap grid-item--wide"><img src="assets/img/IMG_0211-2-1024x683.jpg" alt="" loading="lazy" /></div>
-        <div class="photo-wrap"><img src="assets/img/IMG_0155-2-1024x683.jpg" alt="" loading="lazy" /></div>
-        <div class="photo-wrap grid-item--tall"><img src="assets/img/IMG_0174-1024x683.jpg" alt="" loading="lazy" /></div>
+        <a href="#lb-1" class="photo-wrap"><img src="assets/img/IMG_0187-3-scaled.jpg" alt="" loading="lazy" /></a>
+        <a href="#lb-2" class="photo-wrap"><img src="assets/img/IMG_0147-2-scaled.jpg" alt="" loading="lazy" /></a>
+        <a href="#lb-3" class="photo-wrap"><img src="assets/img/IMG_0149-2-scaled.jpg" alt="" loading="lazy" /></a>
+        <a href="#lb-4" class="photo-wrap"><img src="assets/img/IMG_0181-3-scaled.jpg" alt="" loading="lazy" /></a>
+        <a href="#lb-5" class="photo-wrap"><img src="assets/img/IMG_0141-1-1024x683.jpg" alt="" loading="lazy" /></a>
+        <a href="#lb-6" class="photo-wrap"><img src="assets/img/IMG_0170-1024x683.jpg" alt="" loading="lazy" /></a>
+        <a href="#lb-7" class="photo-wrap"><img src="assets/img/IMG_0198-1-683x1024.jpg" alt="" loading="lazy" /></a>
+        <a href="#lb-8" class="photo-wrap"><img src="assets/img/IMG_0211-2-1024x683.jpg" alt="" loading="lazy" /></a>
+        <a href="#lb-9" class="photo-wrap"><img src="assets/img/IMG_0155-2-1024x683.jpg" alt="" loading="lazy" /></a>
+        <a href="#lb-10" class="photo-wrap"><img src="assets/img/IMG_0174-1024x683.jpg" alt="" loading="lazy" /></a>
       </div>
-
       <div class="center-btn">
         <a class="btn primary" href="#contact">Επικοινωνία</a>
       </div>
@@ -223,7 +201,7 @@
     <div class="fade-bottom"></div>
   </section>
 
-  <!-- FOOTER (decorative lines removed) -->
+  <!-- FOOTER -->
   <footer class="footer">
     <div class="container footer-inner">
       <div class="footer-brand">Κουρείο Θάνος</div>
@@ -233,5 +211,17 @@
       </div>
     </div>
   </footer>
+
+  <!-- LIGHTBOX (updated structure) -->
+  <div id="lightbox-overlay" class="lightbox-overlay" aria-hidden="true"></div>
+  <div id="lightbox-container" class="lightbox">
+    <button class="lightbox-close" aria-label="Κλείσιμο">×</button>
+    <div class="lightbox-content">
+      <img id="lightbox-img" src="" alt="" />
+      <span id="lightbox-label" class="lightbox-label"></span>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
 </body>
 </html>
